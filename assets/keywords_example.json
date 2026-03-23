@@ -1,0 +1,21 @@
+{
+  "keywords": [
+    "formation control",
+    "multi-UAV",
+    "reinforcement learning"
+  ],
+  "journal": "IEEE Robotics and Automation Letters",
+  "journals": [
+    "RAL",
+    "TRO"
+  ],
+  "days_back": 365,
+  "max_results": 30,
+  "language": "zh",
+  "require_abstract": false,
+  "group_by_keyword": true,
+  "save_json": true,
+  "save_markdown": true,
+  "save_docx": true,
+  "crossref_mailto": "your_email@example.com"
+}

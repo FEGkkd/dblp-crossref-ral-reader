@@ -1,0 +1,26 @@
+name: dblp-crossref-ral-reader
+description: Search robotics venues such as RAL, T-RO, T-ASE, ICRA, and IROS using DBLP and Crossref only, then generate Chinese JSON/Markdown/DOCX reports.
+entrypoint:
+  command: python
+  args:
+    - scripts/run_pipeline.py
+capabilities:
+  - dblp-search
+  - crossref-enrichment
+  - multi-venue-filtering
+  - dedup-ranking
+  - chinese-reporting
+defaults:
+  journal: IEEE Robotics and Automation Letters
+  journals:
+    - RAL
+  language: zh
+  save_json: true
+  save_markdown: true
+  save_docx: true
+supported_venues:
+  - RAL
+  - TRO
+  - TASE
+  - ICRA
+  - IROS
